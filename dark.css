@@ -56,6 +56,14 @@ nav ul li a{
 h1{
     
 }
+
+h2{
+    font-size: 5vh !important;
+}
+
+.container-medium-text{
+    font-size: 3vh !important;
+}
 .my-container{
     text-align: center;
     margin: 0px auto;
@@ -77,7 +85,7 @@ h1{
 }
 .container-1-img{
     background: #222f3e;
-    background: url('https://images.unsplash.com/photo-1433979933652-5e766d98ebb4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80');
+    /* background: url('https://images.unsplash.com/photo-1433979933652-5e766d98ebb4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80'); */
     background-size: cover;
     filter: grayscale(1);
 }
@@ -193,8 +201,21 @@ h1{
 
 blockquote{
     color: white;
+    
 }
 
+blockquote p{
+    font-size: 2vh;
+    text-align: justify;
+    width:  60%;
+    margin: 0 auto;
+}
+
+blockquote footer{
+    font-size: 2vh;
+    width:  60%;
+    margin: 0 auto;
+}
 .footer-div{
     padding-top: 30vh;
     text-align: center;
@@ -204,7 +225,7 @@ blockquote{
     line-height: 10vh;
     font-family: 'Roboto';
 }
-.footer-div h2{
+.footer-div h1{
     font-weight: 200;
     letter-spacing: 10px;
 }
