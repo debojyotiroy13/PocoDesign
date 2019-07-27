@@ -5,4 +5,4 @@
 * [Fonts](https://fonts.google.com/?category=Handwriting)
 
 ### Preview:
-![Alt text](https://raw.githubusercontent.com/debojyotiroy13/PocoDesign/master/screen1.png)
+![Alt text](https://raw.githubusercontent.com/debojyotiroy13/RoyJewellers/master/screen1.png)
