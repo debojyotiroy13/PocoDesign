@@ -37,16 +37,17 @@ nav ul{
 }
 
 nav ul li{
-    float: right;
+    float: left;
     color: transparent;
 }
 
 nav ul li a{
     /* color: #333; */
-    padding: 0 30px;
+    padding-right: 30px;
 }
 
 #logo{
+    padding-left: 20px;
     font-size: 25px;
     font-weight: 900;
 }
@@ -291,6 +292,7 @@ blockquote footer{
 .footer-div h1{
     font-weight: 200;
     letter-spacing: 10px;
+    font-size: 5vh;
 }
 
 .footer-div h4{
@@ -311,8 +313,13 @@ footer{
     font-style: italic;
 }
 
-/* @media only screen and (max-width: 400px) { 
-	body {
+@media only screen and (max-width: 400px) { 
+	.footer-div h1{
+        font-weight: 200;
+        font-size: 4vh;
+        letter-spacing: 0px;
+    }
+    #flaticon-cred{
         display: none;
     }
-} */
+}
