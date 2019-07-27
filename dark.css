@@ -18,12 +18,12 @@ body{
 
 
 a{
-    color: white !important;
+    color: #fff !important;
     text-decoration: none;
 }
 
 nav{
-    padding: 30px;
+    padding: 20px;
     position: fixed;
     top: 0;
     z-index: 99 !important;
@@ -34,6 +34,7 @@ nav{
 nav ul{
     /* list-style-type: none; */
     float: right;
+    padding-top: 20px;
 }
 
 nav ul li{
@@ -43,11 +44,11 @@ nav ul li{
 
 nav ul li a{
     /* color: #333; */
-    padding-right: 30px;
+    padding-right: 20px;
 }
 
 #logo{
-    padding-left: 20px;
+    /* padding-left: 20px; */
     font-size: 25px;
     font-weight: 900;
 }
@@ -213,7 +214,7 @@ h2{
 
 .container-5-right{
     padding: 100px;
-    font-size: 3vh;
+    /* font-size: 3vh; */
 }
 .container-5-items-img{
     background: url('https://images.unsplash.com/photo-1534242560170-592c4bacbe4f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1789&q=80');
@@ -316,10 +317,14 @@ footer{
 @media only screen and (max-width: 400px) { 
 	.footer-div h1{
         font-weight: 200;
-        font-size: 4vh;
+        font-size: 3vh;
         letter-spacing: 0px;
     }
     #flaticon-cred{
         display: none;
+    }
+    nav ul{
+        /* list-style-type: none; */
+        float: left;
     }
 }
